@@ -44,5 +44,8 @@ My classifier has 0.83 accuracy and 0.57 log_loss that is quite impressive for t
 
 ## Current problems:
 I want to adopt my implementation for a big number of features with sparse.
-I tried to classify spam on text, but unfortunately it didn't work, because number of features is exremely huge. 
+I tried to classify spam on text, but unfortunately it didn't work, because number of features is exremely huge.
+This is also a big problem because all data become numeric and a little bit too way different.
+That's why i recommend to use my implemetation if you have many categorical features and not too much numeric features.
+It is also better that variation of each numeric feature be small.
 [Kaggle-link to spam dataset](https://www.kaggle.com/datasets/venky73/spam-mails-dataset/data)!
