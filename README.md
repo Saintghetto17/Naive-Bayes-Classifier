@@ -35,3 +35,9 @@ Gaussian formula:
 - x_i - the specific value of numeric featur
 - sigma - variation of feature that has same target as X_i
 - mean - mean of feature that has same target as X_i
+
+## Dataset
+
+I use adult dataset that has information about the adults and their income. 
+The task is to predict - whether a person has income more than 50k USD, or less.
+My classifier has 0.83 accuracy and 0.57 log_loss that is quite impressive for this simple and fast method.
