@@ -3,19 +3,19 @@ My own implementation on well-known probability method - Naive Bayes Classifier
 
 This way of classification rely on the Bayes Theorem of dependent probability:
 <figure style="float:display:block; margin-left: auto; margin-right: auto;">
-	<img src="images/BayesFormula.png" alt="" width="100%">
+	<img src="photos/BayesFormula.jpg" alt="" width="100%">
 </figure>
 <div style="clear:both">
 
 By this, we can transform our probability into this:
 <figure style="float:display:block; margin-left: auto; margin-right: auto;">
-	<img src="images/ClassBayes.png" alt="" width="100%">
+	<img src="photos/ClassBayes.jpg" alt="" width="100%">
 </figure>
 <div style="clear:both">
 
 Moreover, if we suppose that all our features are independent we can expect that:
 <figure style="float:display:block; margin-left: auto; margin-right: auto;">
-	<img src="images/big_formula.png" alt="" width="100%">
+	<img src="photos/big_formula.jpg" alt="" width="100%">
 </figure>
 <div style="clear:both">
 
@@ -28,7 +28,7 @@ This is all because i do it by myself inside. But you can vary it by set transfo
 Gaussian formula:
 
 <figure style="float:display:block; margin-left: auto; margin-right: auto;">
-	<img src="images/gaussian.png" alt="" width="100%">
+	<img src="photos/gaussian.jpg" alt="" width="100%">
 </figure>
 <div style="clear:both">
 
