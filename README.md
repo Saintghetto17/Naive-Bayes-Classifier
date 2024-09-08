@@ -41,3 +41,8 @@ Gaussian formula:
 I use adult dataset that has information about the adults and their income. 
 The task is to predict - whether a person has income more than 50k USD, or less.
 My classifier has 0.83 accuracy and 0.57 log_loss that is quite impressive for this simple and fast method.
+
+## Current problems:
+I want to adopt my implementation for a big number of features with sparse.
+I tried to classify spam on text, but unfortunately it didn't work, because number of features is exremely huge. 
+[Kaggle-link to spam dataset](https://www.kaggle.com/datasets/venky73/spam-mails-dataset/data)!
